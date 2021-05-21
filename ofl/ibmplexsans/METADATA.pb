@@ -62,8 +62,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "IBMPlexSans-Regular.ttf"
-  post_script_name: "IBMPlexSans"
-  full_name: "IBM Plex Sans"
+  post_script_name: "IBMPlexSans-Regular"
+  full_name: "IBM Plex Sans Regular"
   copyright: "Copyright 2018 IBM Corp. All rights reserved."
 }
 fonts {
@@ -136,3 +136,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/plex"
+  commit: "f7e3f72d1473413031e61680b3353c5f9241da8c"
+}
